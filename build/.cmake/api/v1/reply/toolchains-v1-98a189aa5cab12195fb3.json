@@ -1,0 +1,139 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"mcfgthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/gcc.exe",
+				"version" : "10.3.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1/x86_64-w64-mingw32",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1/backward",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib",
+						"D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"mcfgthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/g++.exe",
+				"version" : "10.3.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

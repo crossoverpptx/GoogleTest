@@ -1,0 +1,532 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "E:/GitHub/GoogleTest/build/CMakeFiles/3.25.1/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "E:/GitHub/GoogleTest/build/CMakeFiles/3.25.1/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-ag2zor
+
+Run Build Command(s):D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f6e16/fast && D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f6e16.dir\build.make CMakeFiles/cmTC_f6e16.dir/build
+mingw32-make[1]: Entering directory 'E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-ag2zor'
+Building C object CMakeFiles/cmTC_f6e16.dir/CMakeCCompilerABI.c.obj
+D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe   -v -o CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin
+Thread model: mcf
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.1 20210503 (GCC with MCF thread model, built by LH_Mouse.) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=nocona' '-march=x86-64'
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/cc1.exe -quiet -v -iprefix D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/ -U_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=nocona -march=x86-64 -auxbase-strip CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\fwp\AppData\Local\Temp\cc10LGOe.s
+GNU C17 (GCC with MCF thread model, built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.3.1 20210503, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include"
+ignoring nonexistent directory "C:/MSYS2/ucrt64/include"
+ignoring nonexistent directory "/ucrt64/include"
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed"
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/MSYS2/ucrt64/x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC with MCF thread model, built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.3.1 20210503, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6445c0bf5850a91d0baeb7b6f5f33a1e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=nocona' '-march=x86-64'
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj C:\Users\fwp\AppData\Local\Temp\cc10LGOe.s
+GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=nocona' '-march=x86-64'
+Linking C executable cmTC_f6e16.exe
+D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f6e16.dir\link.txt --verbose=1
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f6e16.dir/objects.a
+D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_f6e16.dir/objects.a @CMakeFiles\cmTC_f6e16.dir\objects1
+D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_f6e16.dir/objects.a -Wl,--no-whole-archive -o cmTC_f6e16.exe -Wl,--out-implib,libcmTC_f6e16.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe
+COLLECT_LTO_WRAPPER=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin
+Thread model: mcf
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.1 20210503 (GCC with MCF thread model, built by LH_Mouse.) 
+COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6e16.exe' '-mtune=nocona' '-march=x86-64'
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/collect2.exe -plugin D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/liblto_plugin-0.dll -plugin-opt=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\fwp\AppData\Local\Temp\ccu9J35D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_f6e16.exe D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1 -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../.. --whole-archive CMakeFiles\cmTC_f6e16.dir/objects.a --no-whole-archive --out-implib libcmTC_f6e16.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6e16.exe' '-mtune=nocona' '-march=x86-64'
+mingw32-make[1]: Leaving directory 'E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-ag2zor'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/include]
+  implicit include dirs: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-ag2zor]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_f6e16/fast && D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f6e16.dir\build.make CMakeFiles/cmTC_f6e16.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-ag2zor']
+  ignore line: [Building C object CMakeFiles/cmTC_f6e16.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe   -v -o CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin]
+  ignore line: [Thread model: mcf]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.1 20210503 (GCC with MCF thread model  built by LH_Mouse.) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=nocona' '-march=x86-64']
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/cc1.exe -quiet -v -iprefix D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/ -U_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=nocona -march=x86-64 -auxbase-strip CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj -version -o C:\Users\fwp\AppData\Local\Temp\cc10LGOe.s]
+  ignore line: [GNU C17 (GCC with MCF thread model  built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.1 20210503  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "C:/MSYS2/ucrt64/include"]
+  ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/MSYS2/ucrt64/x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC with MCF thread model  built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.1 20210503  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6445c0bf5850a91d0baeb7b6f5f33a1e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=nocona' '-march=x86-64']
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj C:\Users\fwp\AppData\Local\Temp\cc10LGOe.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f6e16.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=nocona' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_f6e16.exe]
+  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f6e16.dir\link.txt --verbose=1]
+  ignore line: [D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_f6e16.dir/objects.a]
+  ignore line: [D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_f6e16.dir/objects.a @CMakeFiles\cmTC_f6e16.dir\objects1]
+  ignore line: [D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_f6e16.dir/objects.a -Wl --no-whole-archive -o cmTC_f6e16.exe -Wl --out-implib libcmTC_f6e16.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin]
+  ignore line: [Thread model: mcf]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.1 20210503 (GCC with MCF thread model  built by LH_Mouse.) ]
+  ignore line: [COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f6e16.exe' '-mtune=nocona' '-march=x86-64']
+  link line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/collect2.exe -plugin D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/liblto_plugin-0.dll -plugin-opt=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\fwp\AppData\Local\Temp\ccu9J35D.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_f6e16.exe D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1 -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../.. --whole-archive CMakeFiles\cmTC_f6e16.dir/objects.a --no-whole-archive --out-implib libcmTC_f6e16.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\fwp\AppData\Local\Temp\ccu9J35D.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmcfgthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_f6e16.exe] ==> ignore
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../..] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_f6e16.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_f6e16.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmcfgthread] ==> lib [mcfgthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../..] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;mcfgthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/crt2.o;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/default-manifest.o;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+  implicit dirs: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-kd5z87
+
+Run Build Command(s):D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d0a42/fast && D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d0a42.dir\build.make CMakeFiles/cmTC_d0a42.dir/build
+mingw32-make[1]: Entering directory 'E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-kd5z87'
+Building CXX object CMakeFiles/cmTC_d0a42.dir/CMakeCXXCompilerABI.cpp.obj
+D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe   -v -o CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin
+Thread model: mcf
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.1 20210503 (GCC with MCF thread model, built by LH_Mouse.) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=nocona' '-march=x86-64'
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/cc1plus.exe -quiet -v -iprefix D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/ -U_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=nocona -march=x86-64 -auxbase-strip CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\fwp\AppData\Local\Temp\ccXb8two.s
+GNU C++14 (GCC with MCF thread model, built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.3.1 20210503, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1"
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/x86_64-w64-mingw32"
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/backward"
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include"
+ignoring nonexistent directory "C:/MSYS2/ucrt64/include"
+ignoring nonexistent directory "/ucrt64/include"
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed"
+ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "C:/MSYS2/ucrt64/x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/x86_64-w64-mingw32
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/backward
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C++14 (GCC with MCF thread model, built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)
+	compiled by GNU C version 10.3.1 20210503, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 46613d5ab524bb3e1d7afe57ac851bee
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=nocona' '-march=x86-64'
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\fwp\AppData\Local\Temp\ccXb8two.s
+GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=nocona' '-march=x86-64'
+Linking CXX executable cmTC_d0a42.exe
+D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d0a42.dir\link.txt --verbose=1
+D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d0a42.dir/objects.a
+D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_d0a42.dir/objects.a @CMakeFiles\cmTC_d0a42.dir\objects1
+D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_d0a42.dir/objects.a -Wl,--no-whole-archive -o cmTC_d0a42.exe -Wl,--out-implib,libcmTC_d0a42.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe
+COLLECT_LTO_WRAPPER=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin
+Thread model: mcf
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.3.1 20210503 (GCC with MCF thread model, built by LH_Mouse.) 
+COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0a42.exe' '-shared-libgcc' '-mtune=nocona' '-march=x86-64'
+ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/collect2.exe -plugin D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/liblto_plugin-0.dll -plugin-opt=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\fwp\AppData\Local\Temp\ccFMnaHW.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d0a42.exe D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1 -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../.. --whole-archive CMakeFiles\cmTC_d0a42.dir/objects.a --no-whole-archive --out-implib libcmTC_d0a42.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0a42.exe' '-shared-libgcc' '-mtune=nocona' '-march=x86-64'
+mingw32-make[1]: Leaving directory 'E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-kd5z87'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/x86_64-w64-mingw32]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/backward]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed]
+    add: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/x86_64-w64-mingw32] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1/x86_64-w64-mingw32]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/backward] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1/backward]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed]
+  collapse include dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/include]
+  implicit include dirs: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1/x86_64-w64-mingw32;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include/c++/10.3.1/backward;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/include;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-kd5z87]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_d0a42/fast && D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d0a42.dir\build.make CMakeFiles/cmTC_d0a42.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'E:/GitHub/GoogleTest/build/CMakeFiles/CMakeScratch/TryCompile-kd5z87']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d0a42.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe   -v -o CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj -c D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin]
+  ignore line: [Thread model: mcf]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.1 20210503 (GCC with MCF thread model  built by LH_Mouse.) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=nocona' '-march=x86-64']
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/cc1plus.exe -quiet -v -iprefix D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/ -U_REENTRANT D:\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=nocona -march=x86-64 -auxbase-strip CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\fwp\AppData\Local\Temp\ccXb8two.s]
+  ignore line: [GNU C++14 (GCC with MCF thread model  built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.1 20210503  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1"]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/backward"]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "C:/MSYS2/ucrt64/include"]
+  ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "C:/MSYS2/ucrt64/x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/x86_64-w64-mingw32]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include/c++/10.3.1/backward]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../include]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/include-fixed]
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC with MCF thread model  built by LH_Mouse.) version 10.3.1 20210503 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 10.3.1 20210503  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 46613d5ab524bb3e1d7afe57ac851bee]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=nocona' '-march=x86-64']
+  ignore line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\fwp\AppData\Local\Temp\ccXb8two.s]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_d0a42.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=nocona' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d0a42.exe]
+  ignore line: [D:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d0a42.dir\link.txt --verbose=1]
+  ignore line: [D:\CMake\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d0a42.dir/objects.a]
+  ignore line: [D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\ar.exe qc CMakeFiles\cmTC_d0a42.dir/objects.a @CMakeFiles\cmTC_d0a42.dir\objects1]
+  ignore line: [D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_d0a42.dir/objects.a -Wl --no-whole-archive -o cmTC_d0a42.exe -Wl --out-implib libcmTC_d0a42.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\envs\mingw-w64-gcc-10.3.1\ucrt64\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/ucrt64/x86_64-w64-mingw32/include --libexecdir=/ucrt64/lib --enable-bootstrap --with-arch=x86-64 --with-tune=nocona --enable-languages=c,lto,c++ --enable-shared --enable-static --enable-threads=mcf --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-libstdcxx-filesystem-ts=yes --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --enable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='GCC with MCF thread model, built by LH_Mouse.' --with-bugurl=https://gcc-mcf.lhmouse.com/ --with-gnu-as --with-gnu-ld --with-boot-ldflags=' -Wl,--disable-dynamicbase,--default-image-base-low -static-libstdc++ -static-libgcc' LDFLAGS_FOR_TARGET= --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\ -static-libgcc\ \ -Wl,--stack,12582912' --disable-tls --enable-plugin]
+  ignore line: [Thread model: mcf]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.3.1 20210503 (GCC with MCF thread model  built by LH_Mouse.) ]
+  ignore line: [COMPILER_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d0a42.exe' '-shared-libgcc' '-mtune=nocona' '-march=x86-64']
+  link line: [ D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/collect2.exe -plugin D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/liblto_plugin-0.dll -plugin-opt=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\fwp\AppData\Local\Temp\ccFMnaHW.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d0a42.exe D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1 -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib -LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../.. --whole-archive CMakeFiles\cmTC_d0a42.dir/objects.a --no-whole-archive --out-implib libcmTC_d0a42.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\fwp\AppData\Local\Temp\ccFMnaHW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmcfgthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_d0a42.exe] ==> ignore
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib]
+    arg [-LD:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../..] ==> dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_d0a42.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_d0a42.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmcfgthread] ==> lib [mcfgthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o] ==> obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../lib] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../../../x86_64-w64-mingw32/lib] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.1/../../..] ==> [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib]
+  implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;mcfgthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+  implicit objs: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/crt2.o;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtbegin.o;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib/default-manifest.o;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1/crtend.o]
+  implicit dirs: [D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc/x86_64-w64-mingw32/10.3.1;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib/gcc;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/x86_64-w64-mingw32/lib;D:/envs/mingw-w64-gcc-10.3.1/ucrt64/lib]
+  implicit fwks: []
+
+

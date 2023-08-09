@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/GitHub/GoogleTest/build",
+  "command": "D:\\envs\\mingw-w64-gcc-10.3.1\\ucrt64\\bin\\g++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\gtest.dir\\src\\main.cpp.obj -c E:\\GitHub\\GoogleTest\\src\\main.cpp",
+  "file": "E:/GitHub/GoogleTest/src/main.cpp"
+}
+]
