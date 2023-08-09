@@ -8,13 +8,13 @@
 
 - 仓库下载
 
-  ![image-20230809162934428](E:/GitHub/Myself/CppCode/7.6/image-20230809162934428.png)
+  ![image-20230809162934428](image/image-20230809162934428.png)
 
 ## 2. gtest使用
 
 目录结构：
 
-![image-20230809165310680](E:/GitHub/Myself/CppCode/7.6/image-20230809165310680.png)
+![image-20230809165310680](image/image-20230809165310680.png)
 
 测试代码：
 
@@ -60,7 +60,7 @@ PS E:\GitHub\GoogleTest\build> ."E:/GitHub/GoogleTest/build/gtest.exe"
 
 目录结构：
 
-![image-20230809171104760](E:/GitHub/Myself/CppCode/7.6/image-20230809171104760.png)
+![image-20230809171104760](image/image-20230809171104760.png)
 
 测试代码：
 
